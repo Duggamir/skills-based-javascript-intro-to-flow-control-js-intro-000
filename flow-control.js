@@ -11,13 +11,23 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-
+  basicTeenager()
+  if (age >= 12)
+  {
+    return 'You Are a kid'
+  }
+  else {
+    {
+      return 'You are a grownup'
+    }
+  }
 }
 
 function ternaryTeenager(age) {
-
+  teenager()
 }
 
 function switchAge(age) {
-
+  basicTeenager()
+  return 'You have an age'
 }
