@@ -7,6 +7,7 @@ function basicTeenager(age) {
 
 function teenager(age) {
   basicTeenager()
+  return "You are not a teenager"
 }
 
 function ageChecker(age) {
