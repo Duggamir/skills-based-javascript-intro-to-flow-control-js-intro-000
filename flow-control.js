@@ -6,12 +6,12 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-  basicTeenager()
+  basicTeenager(age)
   return "You are not a teenager"
 }
 
 function ageChecker(age) {
-  basicTeenager()
+  basicTeenager(age)
   if (age >= 12)
   {
     return 'You Are a kid'
@@ -24,10 +24,10 @@ function ageChecker(age) {
 }
 
 function ternaryTeenager(age) {
-  teenager()
+  teenager(age)
 }
 
 function switchAge(age) {
-  basicTeenager()
+  basicTeenager(age)
   return 'You have an age'
 }
